@@ -1,9 +1,9 @@
-
-
-export default function Home() {
+async function Home() {
   return (
-    <main >
-      threads
-     </main>
-  )
+    <>
+      <h1 className="head-text text-left">Home</h1>
+    </>
+  );
 }
+
+export default Home;

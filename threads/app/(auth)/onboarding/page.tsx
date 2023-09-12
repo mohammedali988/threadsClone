@@ -1,9 +1,7 @@
-const Page = () => {
-  return (
-    <main>
-      <h1 className="head-text">Hello there</h1>
-    </main>
-  );
-};
+import React from "react";
 
-export default Page;
+function page() {
+  return <div>OnBoarding</div>;
+}
+
+export default page;
